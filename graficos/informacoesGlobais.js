@@ -14,4 +14,5 @@ async function vizualizarinformacoesGlobais() {
     container.appendChild(paragrafo)
   }
 
-visualizarinformacoesGlobais()
+vizualizarinformacoesGlobais()
+
