@@ -1,6 +1,6 @@
 const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
-async function vizualizarInformacoesGlobais() {
+async function vizualizarinformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
     cosole.log(dados);
@@ -10,8 +10,8 @@ async function vizualizarInformacoesGlobais() {
     que aproximadamente <span>${dados.total_pessoas_conectadas}</span> estão conectadas em alguma rede social
     e passam em média <span>${dados.tempo_medio}</span> horas conectadas.`
     
-    const container = document.getElementById(‘graficos-container’)
+    const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
   }
 
-visualizarInformacoesGlobais()
+visualizarinformacoesGlobais()
