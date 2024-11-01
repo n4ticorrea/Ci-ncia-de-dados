@@ -48,6 +48,14 @@ nav a:hover {
     margin: 5rem;
    }
 
+   /* código omitido */
+
+.grafico {
+    margin-top: 3rem;
+}
+
+/* código omitido */
+
    .graficos-container_texto {
     font-size: 1.3rem;
     text-align: center;
