@@ -25,7 +25,10 @@ const layout = {
   paper_bgcolor: getCSS('--bg-color'),
   title: {
     text: 'Redes sociais com mais usuários no mundo',
-    X: 0
+     x: 0,
+     font: {
+         color: getCSS('--primary-color')
+     }
   }
 }
 
