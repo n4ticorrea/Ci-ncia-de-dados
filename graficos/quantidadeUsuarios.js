@@ -11,7 +11,7 @@ async function quantidadeUsuariosPorRede() {
       y: quantidadeDeUsuarios,
       type: 'bar',
       marker: {
-        color: 'red'
+        color: getComputedStyle(document.body).getPropertyValue('--primary-color')
       }
     }
   ]
