@@ -31,7 +31,30 @@ const layout = {
          family: getCSS('--font'),
          size: 30
      }
-  }
+  },
+  // código omitido
+
+},
+xaxis: {
+    tickfont: tickConfig,
+    title: {
+        text: 'nome das redes sociais',
+        font: {
+            color: getCSS('--secondary-color')
+        }
+    }
+},
+yaxis: {
+    tickfont: tickConfig,
+    title: {
+        text: 'bilhões de usuários ativos',
+        font: {
+            color: getCSS('--secondary-color')
+        }
+    }
+}
+
+// código omitido
 }
 
 // código omitido
