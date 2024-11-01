@@ -31,24 +31,7 @@ const layout = {
          family: getCSS('--font'),
          size: 30
      }
-  },
-  // código omitido
-
-},
-xaxis: {
-    title: {
-        text: 'nome das redes sociais',
-        font: {
-            color: getCSS('--secondary-color')
-        }
-    }
-},
-yaxis: {
-
-}
-}
-
-// código omitido
+  }
  
 // código omitido
     const grafico = document.createElement('div')
