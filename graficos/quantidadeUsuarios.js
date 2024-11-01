@@ -6,11 +6,14 @@ async function quantidadeUsuariosPorRede() {
   const quantidadeDeUsuarios = Object.values(dados)
 
   const data = [
-      {
-          x: nomeDasRedes, 
-          y: quantidadeDeUsuarios, 
-          type: 'bar'
+    {
+      x: 'nomeDasRedes',
+      y: quantidadeDeUsuarios,
+      type: 'bar',
+      marker: {
+        color: 'red'
       }
+    }
   ]
 
   const grafico = document.createElement('div')
