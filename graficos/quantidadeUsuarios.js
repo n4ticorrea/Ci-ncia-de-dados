@@ -36,7 +36,6 @@ const layout = {
 
 },
 xaxis: {
-    tickfont: tickConfig,
     title: {
         text: 'nome das redes sociais',
         font: {
@@ -45,18 +44,12 @@ xaxis: {
     }
 },
 yaxis: {
-    tickfont: tickConfig,
-    title: {
-        text: 'bilhões de usuários ativos',
-        font: {
-            color: getCSS('--secondary-color')
-        }
-    }
+
+}
 }
 
 // código omitido
-}
-
+ 
 // código omitido
     const grafico = document.createElement('div')
     grafico.className = 'grafico'
